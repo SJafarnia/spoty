@@ -20,3 +20,5 @@ RUN pip install -r requirements.txt
 RUN npm install
 RUN npx prisma generate
 CMD ["node", "telegram.js"]
+
+EXPOSE 8080
