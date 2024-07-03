@@ -1,0 +1,30 @@
+{
+  "name": "ytdl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@prisma/client": "^5.15.1",
+    "dotenv": "^16.4.5",
+    "nayan-media-downloader": "^2.3.2",
+    "python-shell": "^5.0.0",
+    "spotify-web-api-js": "^1.5.2",
+    "spotify-web-api-node": "^5.0.2",
+    "telegraf": "^4.16.3",
+    "youtube-music-dl": "^1.1.2",
+    "youtube-search-without-api-key": "^2.0.1",
+    "ytdl-core": "^4.11.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.6",
+    "prisma": "^5.15.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
